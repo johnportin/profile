@@ -4,8 +4,8 @@ import ProjectPlaceholder from '../images/project-placeholder.jpg'
 
 export default function Card() {
     return (
-        <div >
-            <h1>Project Title</h1>
+        <div className='w-64 md:w-96' >
+            <h1 className='text-xl '>Project Title</h1>
             <div className="lg:h-8 lg:w-8 bg-red-100">
                 <Image src={ProjectPlaceholder} alt="Project Image"/>
             </div>

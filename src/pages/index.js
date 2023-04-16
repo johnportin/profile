@@ -1,23 +1,18 @@
 import { Inter } from 'next/font/google'
-import Navbar from '../components/Navbar'
 import Card from '../components/Card'
-import Image from 'next/image'
-import ProfilePicture from '../images/profile.jpg'
+import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
 import { lorem } from '../utils/utils'
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col max-w-7xl items-center m-auto">
       <Navbar />
-      <section className="flex flex-col-reverse lg:flex-row">
-        <div className="flex flex-col">
-          <h2>Hi, Im John, a software developer and mathematician.</h2>
-          <p>{lorem.generateWords(50)}</p>
-        </div>
-        <Image className="h-full w-48 lg:w-96 shrink-0" src={ ProfilePicture } alt="Profile Picture" />
-      </section>
-      <section className="bg-gray-100">
+      <Hero />
+      <section className="flex flex-col md:flex-row mx-16 items-center space-x-8 ">
         <Card />
         <Card />
       </section>
