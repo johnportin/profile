@@ -24,8 +24,8 @@ export default function Contact() {
   ]);
 
   return (
-    <section className="w-full flex flex-col items-center border border-cyan-900">
-      <p className="text-3xl font-bold">Contact</p>
+    <section className="w-full flex flex-col items-start">
+      <p className="text-3xl font-bold pl-4">Contact</p>
       <form
         onSubmit={handleSubmit((data) => {
           console.log(data);
@@ -91,7 +91,7 @@ export default function Contact() {
             )}
           </p>
         </div>
-        <div className="flex flex-col items-start justify-between border-b-2 border-slate-300 space-y-2">
+        <div className="flex flex-col items-start justify-between space-y-2">
           <label htmlFor="message">Message</label>
           <textarea
             type="textarea"
@@ -119,6 +119,10 @@ export default function Contact() {
             )}
           </p>
         </div>
+        <input
+          type="submit"
+          className="border-2 border-slate-300 rounded-md hover:bg-slate-500 hover:text-white"
+        />
       </form>
     </section>
   );
