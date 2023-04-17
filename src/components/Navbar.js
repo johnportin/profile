@@ -7,7 +7,7 @@ export default function Navbar() {
     const toggleMenu = () => { setOpen(!open); }
 
     return (
-        <nav className="flex justify-between items-center h-24 max-w-7xl mx-auto px-16 w-full">
+        <nav className="flex justify-between items-center h-24 max-w-7xl mx-auto md:px-16 w-full">
             <h1 className='w-full text-3xl font'>John Portin</h1>
             <ul className="hidden md:flex">
                 <li className="p-4">Home</li>

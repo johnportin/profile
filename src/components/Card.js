@@ -4,9 +4,9 @@ import ProjectPlaceholder from '../images/project-placeholder.jpg'
 
 export default function Card() {
     return (
-        <div className='w-64 md:w-96' >
+        <div className='flex flex-col md:self-start md:items-start md:justify-start w-full' >
             <h1 className='text-xl '>Project Title</h1>
-            <div className="lg:h-8 lg:w-8 bg-red-100">
+            <div className="">
                 <Image src={ProjectPlaceholder} alt="Project Image"/>
             </div>
             <p>{lorem.generateSentences(5)}</p>

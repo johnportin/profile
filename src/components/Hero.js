@@ -5,7 +5,7 @@ import { lorem } from '../utils/utils'
 
 export default function Hero() {
     return (
-        <section className="flex flex-col-reverse md:flex-row w-full items-center px-32 justify-between mb-8">
+        <section className="flex flex-col-reverse md:flex-row w-full items-center md:px-8 justify-between mb-8">
             <div className="flex flex-col">
                 <h2 className='text-2xl'>Hi, Im John, a 
                     <Typewriter
