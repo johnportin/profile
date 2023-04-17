@@ -4,6 +4,7 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,4 +21,5 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    margin: auto;
 }

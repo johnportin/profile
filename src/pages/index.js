@@ -1,30 +1,35 @@
-import { Inter } from 'next/font/google'
-import Card from '../components/Card'
-import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
-import About from '../components/About'
-import { lorem } from '../utils/utils'
+import { Inter } from "next/font/google";
+import Card from "../components/Card";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import About from "../components/About";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
+import { lorem } from "../utils/utils";
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center max-w-7xl px-8 md:px-16 ">
+    <div className="flex flex-col items-center max-w-7xl px-8 md:px-16 m-auto space-y-8 ">
       <Navbar />
       <Hero />
-      <section className="
+      <section
+        className="
         flex flex-col w-full
         gap-auto place-items-center
         md:items-end
         md:grid md:grid-cols-2 md:gap-16
-        ">
+        "
+      >
         <Card />
         <Card />
         <Card />
         <Card />
       </section>
       <About />
+      <Contact />
+      <Footer />
     </div>
-  )
+  );
 }
