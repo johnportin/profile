@@ -1,5 +1,4 @@
-import { LoremIpsum } from 'lorem-ipsum'
-
+import { LoremIpsum } from "lorem-ipsum";
 
 export const lorem = new LoremIpsum({
   sentencesPerParagraph: {
@@ -10,4 +9,4 @@ export const lorem = new LoremIpsum({
     max: 16,
     min: 4,
   },
-})
+});
