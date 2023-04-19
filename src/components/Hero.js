@@ -10,7 +10,7 @@ export default function Hero() {
       className="flex flex-col-reverse md:flex-row w-full items-center md:px-8 justify-between mb-8"
     >
       <div className="flex flex-col mt-8 items-center md:mt-0 md:items-start md:gap-6">
-        <h2 className="text-4xl">Hi, Im John</h2>
+        <h2 className="text-4xl">Hi, I'm John.</h2>
         <Typewriter
           options={{
             strings: [
