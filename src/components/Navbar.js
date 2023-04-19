@@ -14,26 +14,41 @@ export default function Navbar() {
     <nav className="flex justify-between items-center h-24 max-w-7xl mx-auto  w-full uppercase">
       <h1 className="w-full text-3xl font">John Portin</h1>
       <ul className="hidden md:flex items-center text-xl">
-        <Link href="#home" scroll={false}>
+        <Link
+          className="hover:transform hover:scale-125 duration-200"
+          href="#home"
+          scroll={false}
+        >
           <li className="p-4">Home</li>
         </Link>
 
-        <Link href="#projects" scroll={false}>
+        <Link
+          className="hover:transform hover:scale-125 duration-200"
+          href="#projects"
+          scroll={false}
+        >
           <li className="p-4">Projects</li>
         </Link>
 
-        <li className="p-4">
-          <Link href="#about" scroll={false}>
-            About
-          </Link>
-        </li>
-        <li className="p-4">
+        <Link
+          className="hover:transform hover:scale-125 duration-200"
+          href="#about"
+          scroll={false}
+        >
+          <li className="p-4">About</li>
+        </Link>
+
+        <li className="hover:transform hover:scale-125 duration-200 p-4">
           <a href="https://www.github.com/johnportin" target="_blank">
             <FiGithub />
           </a>
         </li>
-        <li className="p-4">
-          <a href="https://www.linkedin.com/in/johnportin/" target="_blank">
+        <li className="hover:transform hover:scale-125 duration-200 p-4">
+          <a
+            className="hover:transform hover:scale-125 duration-200"
+            href="https://www.linkedin.com/in/johnportin/"
+            target="_blank"
+          >
             <FiLinkedin />
           </a>
         </li>
