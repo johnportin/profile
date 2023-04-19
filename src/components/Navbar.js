@@ -80,11 +80,10 @@ export default function Navbar() {
             <li className="p-4">Projects</li>
           </Link>
 
-          <li className="p-4">
-            <Link href="#about" scroll={false}>
-              About
-            </Link>
-          </li>
+          <Link href="#about" scroll={false}>
+            <li className="p-4">About</li>
+          </Link>
+
           <li className="p-4">
             <a href="https://www.github.com/johnportin" target="_blank">
               <FiGithub />
