@@ -13,7 +13,7 @@ const projects = [
         add/remove students,
         update attendance after the fact,
         and generate attendance reports.`,
-    href: "https://google.com",
+    href: "https://github.com/johnportin/digital-roster-react",
   },
   {
     title: "Wellness Tracker",
@@ -23,7 +23,7 @@ const projects = [
         Users can add new mood entries by taking a short quiz.
         The entries are stored in a database, and can be viewed as a calendar.
         The app also provides a quote -- depending on your current mood -- to help you get through the day.`,
-    href: "https://google.com",
+    href: "https://github.com/mingyoungjeng/EECS448_Project4",
   },
   {
     title: "Meta Front-End Capstone",
@@ -31,7 +31,7 @@ const projects = [
     content: `This website is the capstone project of Meta's Front-End Developer Course on Coursera.
     This gave me the opportunity to build a website from scratch.
     Starting from wireframes in figma, adhering to the Nielsen Heuristics, and finally producing a fully functional website with React.`,
-    href: "https://google.com",
+    href: "https://github.com/johnportin/Meta-Capstone",
   },
   {
     title: "BattleShip",
@@ -39,7 +39,7 @@ const projects = [
     content: `This is the classic game of battleship. Together with a group of fellow students, we worked together to build this game.
         We built the entire thing with basic web technologies: HTML, CSS, and JavaScript.
         It was a lot of fun to work together with others to build something from scratch!`,
-    href: "https://google.com",
+    href: "https://github.com/mingyoungjeng/EECS448_Project2",
   },
 ];
 
@@ -61,6 +61,7 @@ export default function Projects() {
             title={project.title}
             content={project.content}
             image={project.image}
+            href={project.href}
           />
         );
       })}
