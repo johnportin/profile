@@ -9,7 +9,7 @@ export default function Card({ title, image, content, href }) {
       <a href={href} className="">
         <Image
           src={image}
-          className="rounded-2xl object-none  hover:shadow-md hover:shadow-black duration-200"
+          className="rounded-2xl object-none hover:shadow-lg hover:shadow-slate-500 duration-200"
           alt="Project Image"
         />
       </a>
