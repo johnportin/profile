@@ -9,12 +9,12 @@ export default function About() {
         intellect, and privilege to help others. That's why I want to turn my
         passion for programming and mathematics into a career that will allow me
         to make a positive impact on the world. As a student at the University
-        of Kansas since 2016 I received my MA in 2016, and will receive in the
+        of Kansas, I received my MA in 2016, and will receive my PhD in the
         summer of 2023. Throughout my time at KU, I have taken numerous computer
         science courses and completed several programming projects. I really
-        enjoy building things that people can use in their everyday lives. I
-        believe that my combined expertise in mathematics and computer science
-        will allow me to make significant in any industry I choose to work in.
+        enjoy building things that people can use in their everyday lives. My
+        combined expertise in mathematics and computer science will allow me to
+        make significant in any industry I choose to work in.
       </p>
     </section>
   );

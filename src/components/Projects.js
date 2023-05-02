@@ -10,9 +10,9 @@ const projects = [
   {
     title: "Digital Roster",
     image: Roster,
-    content: `Keeping track of student attendance can be a chore for any teacher. 
-        This app allows teachers to track their students attendance -- and more -- in a digital format. 
-        Teachers can easily manage multiple classes of students with the ability to:
+    content: `Keeping track of student attendance can be a chore for any teacher.
+        This app enables teachers to to efficiently track their students attendance, leaving more time for what really matters: teaching.
+        With this digital roster, you can easily manage multiple classes of students with the ability to:
         upload multiple rosters,
         add/remove students,
         update attendance after the fact,
@@ -33,8 +33,8 @@ const projects = [
     title: "Meta Front-End Capstone",
     image: LittleLemon,
     content: `This website is the capstone project of Meta's Front-End Developer Course on Coursera.
-    This gave me the opportunity to build a website from scratch.
-    Starting from wireframes in figma, adhering to the Nielsen Heuristics, and finally producing a fully functional website with React.`,
+        This gave me the opportunity to build a website from scratch.
+        Starting from wireframes in figma, adhering to the Nielsen Heuristics, and finally producing a fully functional website with React.`,
     href: "https://github.com/johnportin/Meta-Capstone",
   },
   {
