@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import Link from "next/link";
@@ -14,32 +13,26 @@ export default function Navbar() {
     <nav className="flex justify-between items-center h-24 max-w-7xl mx-auto  w-full uppercase">
       <h1 className="w-full text-3xl font">John Portin</h1>
       <ul className="hidden md:flex items-center text-xl">
-        <Link
-          className="hover:transform hover:scale-125 duration-200"
-          href="#home"
-          scroll={false}
-        >
-          <li className="p-4">Home</li>
-        </Link>
+        <li className="p-4 hover:transform hover:scale-125 duration-200">
+          <Link className="" href="#home" scroll={false}>
+            Home
+          </Link>
+        </li>
+        <li className="p-4 hover:transform hover:scale-125 duration-200">
+          <Link className="" href="#projects" scroll={false}>
+            Projects
+          </Link>
+        </li>
 
-        <Link
-          className="hover:transform hover:scale-125 duration-200"
-          href="#projects"
-          scroll={false}
-        >
-          <li className="p-4">Projects</li>
-        </Link>
-
-        <Link
-          className="hover:transform hover:scale-125 duration-200"
-          href="#about"
-          scroll={false}
-        >
-          <li className="p-4">About</li>
-        </Link>
+        <li className="p-4 hover:transform hover:scale-125 duration-200">
+          <Link href="#about" scroll={false}>
+            About
+          </Link>
+        </li>
 
         <li className="hover:transform hover:scale-125 duration-200 p-4">
           <a href="https://www.github.com/johnportin" target="_blank">
+            <p className="sr-only">GitHub</p>
             <FiGithub />
           </a>
         </li>
